@@ -36,13 +36,13 @@ Enlace para acceder a la aplicación en tu navegador: [Text Encriptador](https:/
 
 ## :space_invader: Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9856263f-274d-4f64-b55a-5697c2477071" alt="1" width="45%">
-  <img src="https://github.com/user-attachments/assets/4e9b425e-219f-4410-a791-a21d7d5b3f33" alt="2" width="45%">
+  <img src="https://github.com/user-attachments/assets/09612b53-ace3-4773-8d5f-25522d9275f9" alt="1" width="45%">
+  <img src="https://github.com/user-attachments/assets/d9f5c9bd-8ae2-413f-8bdd-d44951b638c1" alt="2" width="45%">
 </p>
 <p align="center">Nest Hub Max.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a5ce3ae1-7aa9-4b28-81a9-ce18891ff44c" alt="3" width="45%">
-  <img src="https://github.com/user-attachments/assets/7351e5b5-3afb-4fea-8409-83857a213f62" alt="4" width="45%">
+  <img src="https://github.com/user-attachments/assets/e10b390b-3efd-4f37-9d63-37a34cb3dc39" alt="3" width="45%">
+  <img src="https://github.com/user-attachments/assets/f6cc67bc-52ed-4c0f-be2e-ffecbd69b480" alt="4" width="45%">
 </p>
 <p align="center">Tablet / Mobile.</p>
