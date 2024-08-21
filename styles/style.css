@@ -1,0 +1,321 @@
+:root{
+    --Letter: #435585;
+    --Font: linear-gradient(#DDF2FD 0%, #9BBEC8 33.33%, #427D9D 66.67%, #164863 100%);
+    --White: #DDF2FD;
+    --Boton_one: #0A3871;
+    --Boton_fondo: linear-gradient(#F7F7F8 0%, #3795BD 33.33%, #4E31AA 66.67%, #3A1078 100%)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--Letter);
+}
+
+body{
+    background: var(--Font);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before {
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+    background-position: 1% 5%;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    padding: 1%;
+    gap: 1%;
+}
+
+.encriptador__texto{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 70%;
+    height: auto;
+}
+
+.texto__ingresado{
+    width: 90%;
+    height: 60vh;
+    margin: 10%  0 0 10%;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2rem;
+    background: transparent;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.texto__ingresado::placeholder{
+    color: #435585;
+}
+
+.condicion{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    margin: 1%  0 0 10%;
+    position: relative;
+}
+
+.condicion p{
+    width: 100%;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--White);
+    line-height: 100%;
+}
+
+.botones{
+    min-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1% 0;
+    margin: 1% 0 0 10%;
+    gap: 2%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.b__encriptar,
+.b__desencriptar{
+    width: 40%;
+    padding: 2%;
+    text-align: center;
+    background-color: var(--Boton_one);
+    border: 1px solid var(--White);
+    border-radius: 24px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--White);
+    transition: transform 0.3s ease;
+}
+
+.b__desencriptar{
+    background-color: var(--White);
+    border: 1px solid var(--Boton_one);
+    color: var(--Boton_one);
+}
+
+.b__encriptar:hover,
+.b__desencriptar:hover{
+    background-image: var(--Boton_fondo);
+    transform: scale(1.1);
+
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+    height: auto;
+    z-index: 2;
+    margin-bottom: 0%;
+    padding-top: 25%;
+    box-sizing: border-box; 
+    position: relative;
+}
+
+.github i {
+    font-size: 2.5rem;
+    color: var(--Boton_one);
+    transition: color 0.3s;
+}
+
+.github i:hover {
+    color: #007bff;
+}
+
+
+.container__two{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 30%;
+    height: auto;
+}
+
+
+.texto__encriptado{
+    width: 90%;
+    min-height: 90vh;
+    padding: 1%;
+    margin: 5% 0 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--White);
+    border-radius: 32px;
+    box-shadow: 0px 24px 34px -18px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.texto__encriptado h2 {
+    width: 80%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 130%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.texto__encriptado p{
+    width: 60%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 130%;
+    text-align: center;
+}
+
+.texto__encriptado img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img__mobile{
+    display: none;
+}
+
+.copiar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 2%;
+    box-sizing: border-box;
+}
+
+.b__copiar,
+.b__pegar{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--Boton_one);
+    cursor: pointer;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 11vw;
+    position: relative;
+    z-index: 1;
+}
+
+.b__copiar:before,
+.b__pegar:before{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.b__copiar:active,
+.b__pegar:active {
+    color: var(--Boton_one);
+}
+
+.b__copiar:active:after,
+.b__pegar:active:after{
+    background: transparent;
+}
+
+.b__copiar:hover:before,
+.b__pegar:hover:before{
+    opacity: 1;
+}
+
+.b__copiar:after,
+.b__pegar:after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--Boton_one);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+#textOutput {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+    height: auto;
+    box-sizing: border-box; 
+}
+
+#texto__output{
+    width: 90%;
+    height: 100px;
+    padding: 1.5%;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    background: transparent;
+    border: 1px solid var(--Letter);
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    resize: none;
+}
+
+

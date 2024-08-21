@@ -1,0 +1,116 @@
+@media (max-width: 1250px){
+    body{
+        width: auto;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    
+    .encriptador__texto{        
+        width: 100%;
+    }
+
+    .texto__ingresado{
+        width: 80%;
+        min-height: 200px;
+        height: 45vh;
+        margin-top: 15%;
+    }
+
+    .botones{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 1% 0 0 5%;
+        gap: 2.5%;
+    }
+
+    .b__encriptar,
+    .b__desencriptar{
+        width: 43%;
+        padding: 3%;
+    }
+
+    .container__two{
+        width: 100%;
+    }
+
+    .texto__encriptado{
+        width: 80%;
+        min-height: 25vh;
+        margin: 2% 0 0 10%;
+    }
+
+    .texto__encriptado h2{
+        width: 100%;
+    }
+
+   .img__desktop{
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        position: absolute !important;
+    }
+
+    .texto__encriptado img{
+        width: 20%;
+        display: block;
+    }
+    
+    .copiar{
+        margin-top: 5%;
+        gap: 40%;
+        position: relative;
+    }
+
+    .github {
+        padding-top: 1%;
+    }
+
+    .github i {
+        font-size: 2rem;
+        color: var(--Boton_one);
+        transition: color 0.3s;
+    }
+}
+
+@media (max-width: 613px){
+
+    body::before {
+        background-position: center 2%;
+    }
+
+    .texto__ingresado{
+        margin-top: 20%;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+
+    .botones{
+        gap: 20px;
+    }
+
+    .texto__encriptado h2{
+        width: 100%;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+
+    .texto__encriptado p{
+        width: 100%;
+        font-weight: 200;
+        font-size: 0.7rem;
+    }
+
+    .copiar{
+        margin-top: 0%;
+    }
+
+    .b__copiar,
+    .b__pegar{
+    padding: 0.5rem;
+    }
+}
