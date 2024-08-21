@@ -34,7 +34,7 @@ El proyecto permite encriptar y desencriptar textos para intercambiar mensajes s
 
 Enlace para acceder a la aplicación en tu navegador: [Text Encriptador](https://text-encriptador.vercel.app/)
 
-## :space_invader: Images
+## :space_invader: Imágenes
 <p align="center">
   <img src="https://github.com/user-attachments/assets/09612b53-ace3-4773-8d5f-25522d9275f9" alt="1" width="45%">
   <img src="https://github.com/user-attachments/assets/d9f5c9bd-8ae2-413f-8bdd-d44951b638c1" alt="2" width="45%">
